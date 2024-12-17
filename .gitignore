@@ -1,0 +1,26 @@
+# Exclude everything in root…
+/*
+!.gitignore
+
+# … except wp-content.
+# !/wp-content
+
+# Now exclude everything in wp-content …
+# /wp-content/*
+
+# … except plugins …
+!/plugins
+
+# Now exclude everything plugins …
+/plugins/*
+
+!/plugins/ugc-data-manager
+
+# … and except themes.
+!/themes
+
+# Now exclude everything in themes …
+/themes/*
+
+# … except child theme
+!/themes/ugc-press
